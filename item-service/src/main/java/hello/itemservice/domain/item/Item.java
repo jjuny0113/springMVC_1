@@ -12,6 +12,7 @@ public class Item {
     private Integer price;
     private int quantity;
 
+    public Item(){}
     public Item(String itemName, Integer price, int quantity) {
         this.itemName = itemName;
         this.price = price;
